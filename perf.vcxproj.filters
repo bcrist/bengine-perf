@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\counters">
+      <UniqueIdentifier>{c6f6bd04-266c-48b5-8d11-258e9fe8d86f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\events">
+      <UniqueIdentifier>{72b1fdbf-c555-4fe9-9e42-7fd24eaec7a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\timers">
+      <UniqueIdentifier>{e0397213-658f-42a3-88d1-6a85b5c754dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\counters">
+      <UniqueIdentifier>{eff041ef-53eb-4c16-b41d-9c3dbb6a9f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\events">
+      <UniqueIdentifier>{56cd26ec-0d1b-49ca-b9ad-5f5ef7fd8d5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\timers">
+      <UniqueIdentifier>{eace6cdd-a1ea-461c-b5dc-31859a68c5f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\pch.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\perf_autolink.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stat_base.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stats.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\service_stats.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\timer.hpp">
+      <Filter>Header Files\timers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\timer_stat.hpp">
+      <Filter>Header Files\timers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\timer_stats.hpp">
+      <Filter>Header Files\timers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scoped_timer.hpp">
+      <Filter>Header Files\timers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scoped_event.hpp">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\scoped_counter.hpp">
+      <Filter>Header Files\counters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\event_stats.hpp">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\event_stat.hpp">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\event.hpp">
+      <Filter>Header Files\events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\counter.hpp">
+      <Filter>Header Files\counters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\counter_stat.hpp">
+      <Filter>Header Files\counters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\counter_stats.hpp">
+      <Filter>Header Files\counters</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\service_stats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer_stats.cpp">
+      <Filter>Source Files\timers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer.cpp">
+      <Filter>Source Files\timers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer_stat.cpp">
+      <Filter>Source Files\timers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event_stats.cpp">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event.cpp">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\event_stat.cpp">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="src\counter_stats.cpp">
+      <Filter>Source Files\counters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\counter.cpp">
+      <Filter>Source Files\counters</Filter>
+    </ClCompile>
+    <ClCompile Include="src\counter_stat.cpp">
+      <Filter>Source Files\counters</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\scoped_timer.inl">
+      <Filter>Header Files\timers</Filter>
+    </None>
+    <None Include="include\scoped_event.inl">
+      <Filter>Header Files\events</Filter>
+    </None>
+  </ItemGroup>
+</Project>
