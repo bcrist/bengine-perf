@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectName>perf</ProjectName>
     <RootNamespace>perf</RootNamespace>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
     <ProjectGuid>{B20B940A-056A-4D62-B369-870006923784}</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
