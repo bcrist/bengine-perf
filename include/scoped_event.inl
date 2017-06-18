@@ -3,8 +3,7 @@
 #elif !defined(BE_PERF_SCOPED_EVENT_INL_)
 #define BE_PERF_SCOPED_EVENT_INL_
 
-namespace be {
-namespace perf {
+namespace be::perf {
 
 ///////////////////////////////////////////////////////////////////////////////
 template <v::Verbosity V>
@@ -170,6 +169,5 @@ bool ScopedEvent<V>::started() const {
 }
 
 } // be::perf
-} // be
 
 #endif

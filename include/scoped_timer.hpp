@@ -8,8 +8,7 @@
 #define BE_PERF_DEBUG_TIMERS
 #endif
 
-namespace be {
-namespace perf {
+namespace be::perf {
 
 template <v::Verbosity V = v::info>
 class ScopedTimer final : NonCopyable {
@@ -62,7 +61,6 @@ public:
 typedef ScopedTimer<v::debug> DebugTimer;
 
 } // be::perf
-} // be
 
 #include "scoped_timer.inl"
 

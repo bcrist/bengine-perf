@@ -2,8 +2,7 @@
 #include "counter.hpp"
 #include "service_stats.hpp"
 
-namespace be {
-namespace perf {
+namespace be::perf {
 
 ///////////////////////////////////////////////////////////////////////////////
 Counter::Counter()
@@ -60,4 +59,3 @@ void Counter::swap_(Counter& other) {
 }
 
 } // be::perf
-} // be

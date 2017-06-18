@@ -6,8 +6,7 @@
 #include "timer_stats.hpp"
 #include "event_stats.hpp"
 
-namespace be {
-namespace perf {
+namespace be::perf {
 
 ///////////////////////////////////////////////////////////////////////////////
 class Stats final : Immovable {
@@ -24,6 +23,5 @@ private:
 };
 
 } // be::perf
-} // be
 
 #endif

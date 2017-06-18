@@ -4,8 +4,7 @@
 
 #include "stat_base.hpp"
 
-namespace be {
-namespace perf {
+namespace be::perf {
 
 class Stats;
 
@@ -47,7 +46,6 @@ private:
 };
 
 } // be::perf
-} // be
 
 #endif
 

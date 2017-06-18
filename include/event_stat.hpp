@@ -5,8 +5,7 @@
 #include "stat_base.hpp"
 #include <be/core/time.hpp>
 
-namespace be {
-namespace perf {
+namespace be::perf {
 
 class Stats;
 
@@ -40,7 +39,6 @@ private:
 };
 
 } // be::perf
-} // be
 
 #endif
 

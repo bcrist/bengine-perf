@@ -6,8 +6,7 @@
 #include <be/core/pair_value_iterators.hpp>
 #include <unordered_map>
 
-namespace be {
-namespace perf {
+namespace be::perf {
 
 ///////////////////////////////////////////////////////////////////////////////
 class EventStats final : Immovable {
@@ -38,6 +37,5 @@ private:
 };
 
 } // be::perf
-} // be
 
 #endif

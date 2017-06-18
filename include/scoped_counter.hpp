@@ -9,8 +9,7 @@
 #define BE_PERF_DEBUG_COUNTERS
 #endif
 
-namespace be {
-namespace perf {
+namespace be::perf {
 
 ///////////////////////////////////////////////////////////////////////////////
 template <v::Verbosity V = v::info>
@@ -57,6 +56,5 @@ public:
 using DebugCounter = ScopedCounter<v::debug>;
 
 } // be::perf
-} // be
 
 #endif

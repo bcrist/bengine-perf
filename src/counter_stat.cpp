@@ -2,8 +2,7 @@
 #include "counter_stat.hpp"
 #include "stats.hpp"
 
-namespace be {
-namespace perf {
+namespace be::perf {
 
 ///////////////////////////////////////////////////////////////////////////////
 CounterStat::CounterStat(CounterStat&& other)
@@ -99,4 +98,3 @@ CounterStat::CounterStat(Stats& owner, Id id, S name)
 }
 
 } // be::perf
-} // be

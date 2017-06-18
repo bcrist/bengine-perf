@@ -6,8 +6,7 @@
 #include <be/core/id.hpp>
 #include <boost/circular_buffer.hpp>
 
-namespace be {
-namespace perf {
+namespace be::perf {
 
 class Stats;
 
@@ -58,7 +57,6 @@ protected:
    record_container data_;
 };
 
-} // perf
-} // be
+} // be::perf
 
 #endif

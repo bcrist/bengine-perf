@@ -1,8 +1,7 @@
 #include "pch.hpp"
 #include "event_stats.hpp"
 
-namespace be {
-namespace perf {
+namespace be::perf {
 
 ///////////////////////////////////////////////////////////////////////////////
 EventStat& EventStats::operator[](Id id) {
@@ -38,4 +37,3 @@ EventStats::EventStats(Stats & stats)
 { }
 
 } // be::perf
-} // be

@@ -2,8 +2,7 @@
 #include "event_stat.hpp"
 #include "stats.hpp"
 
-namespace be {
-namespace perf {
+namespace be::perf {
 
 ///////////////////////////////////////////////////////////////////////////////
 EventStat::EventStat(EventStat&& other)
@@ -42,4 +41,3 @@ EventStat::EventStat(Stats& owner, Id id, S name)
 { }
 
 } // be::perf
-} // be

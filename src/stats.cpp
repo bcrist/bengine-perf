@@ -1,8 +1,7 @@
 #include "pch.hpp"
 #include "stats.hpp"
 
-namespace be {
-namespace perf {
+namespace be::perf {
 
 ///////////////////////////////////////////////////////////////////////////////
 Stats::Stats()
@@ -19,4 +18,3 @@ void Stats::clear() {
 }
 
 } // be::perf
-} // be

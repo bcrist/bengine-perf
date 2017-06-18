@@ -2,8 +2,7 @@
 #include "timer_stat.hpp"
 #include "stats.hpp"
 
-namespace be {
-namespace perf {
+namespace be::perf {
 namespace detail {
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -289,4 +288,3 @@ TimerStat::TimerStat(Stats& owner, Id id, S name)
 }
 
 } // be::perf
-} // be

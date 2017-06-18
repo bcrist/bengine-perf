@@ -9,8 +9,7 @@
 #define BE_PERF_DEBUG_EVENTS
 #endif
 
-namespace be {
-namespace perf {
+namespace be::perf {
    
 class EventStat;
 
@@ -81,7 +80,6 @@ public:
 typedef ScopedEvent<v::debug> DebugTimer;
 
 } // be::perf
-} // be
 
 #include "scoped_event.inl"
 

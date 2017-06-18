@@ -3,8 +3,7 @@
 #elif !defined(BE_PERF_SCOPED_TIMER_INL_)
 #define BE_PERF_SCOPED_TIMER_INL_
 
-namespace be {
-namespace perf {
+namespace be::perf {
 
 ///////////////////////////////////////////////////////////////////////////////
 template <v::Verbosity V>
@@ -128,6 +127,5 @@ inline bool ScopedTimer<V>::started() const {
 }
 
 } // be::perf
-} // be
 
 #endif

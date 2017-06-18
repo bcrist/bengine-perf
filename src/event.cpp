@@ -4,8 +4,7 @@
 #include "service_stats.hpp"
 #include <be/core/time.hpp>
 
-namespace be {
-namespace perf {
+namespace be::perf {
 
 ///////////////////////////////////////////////////////////////////////////////
 Event::Event()
@@ -104,4 +103,3 @@ void Event::swap_(Event & other) {
 }
 
 } // be::perf
-} // be

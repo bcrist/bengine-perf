@@ -6,8 +6,7 @@
 #include <boost/iterator/indirect_iterator.hpp>
 #include <vector>
 
-namespace be {
-namespace perf {
+namespace be::perf {
 
 class Stats;
 class TimerStat;
@@ -101,7 +100,6 @@ private:
 };
 
 } // be::perf
-} // be
 
 #endif
 

@@ -6,8 +6,7 @@
 #include <be/core/id.hpp>
 #include <be/core/verbosity.hpp>
 
-namespace be {
-namespace perf {
+namespace be::perf {
    
 class EventStat;
 
@@ -49,6 +48,5 @@ inline Event::Event(const ScopedEvent<V>& event)
 { }
 
 } // be::perf
-} // be
 
 #endif

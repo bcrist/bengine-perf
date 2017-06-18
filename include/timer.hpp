@@ -6,8 +6,7 @@
 #include <be/core/id.hpp>
 #include <be/core/verbosity.hpp>
 
-namespace be {
-namespace perf {
+namespace be::perf {
 
 class TimerStat;
 
@@ -56,6 +55,5 @@ private:
 };
 
 } // be::perf
-} // be
 
 #endif

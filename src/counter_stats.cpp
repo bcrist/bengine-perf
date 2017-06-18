@@ -1,8 +1,7 @@
 #include "pch.hpp"
 #include "counter_stats.hpp"
 
-namespace be {
-namespace perf {
+namespace be::perf {
 
 ///////////////////////////////////////////////////////////////////////////////
 CounterStat& CounterStats::operator[](Id id) {
@@ -38,4 +37,3 @@ CounterStats::CounterStats(Stats & stats)
 { }
 
 } // be::perf
-} // be

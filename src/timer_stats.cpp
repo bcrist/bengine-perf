@@ -1,8 +1,7 @@
 #include "pch.hpp"
 #include "timer_stats.hpp"
 
-namespace be {
-namespace perf {
+namespace be::perf {
 
 ///////////////////////////////////////////////////////////////////////////////
 TimerStat& TimerStats::operator[](Id id) {
@@ -57,4 +56,3 @@ void TimerStats::set_child_(TimerStat& stat) {
 }
 
 } // be::perf
-} // be

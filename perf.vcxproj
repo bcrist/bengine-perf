@@ -54,7 +54,7 @@
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="include\pch.hpp" />
+    <ClInclude Include="src\pch.hpp" />
     <ClInclude Include="include\perf_autolink.hpp" />
     <ClInclude Include="include\counter.hpp" />
     <ClInclude Include="include\counter_stat.hpp" />

@@ -3,8 +3,7 @@
 #include "timer_stat.hpp"
 #include "service_stats.hpp"
 
-namespace be {
-namespace perf {
+namespace be::perf {
 
 ///////////////////////////////////////////////////////////////////////////////
 Timer::Timer()
@@ -143,4 +142,3 @@ void Timer::swap_(Timer& other) {
 }
 
 } // be::perf
-} // be

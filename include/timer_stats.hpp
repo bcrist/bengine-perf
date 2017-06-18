@@ -6,8 +6,7 @@
 #include <boost/iterator/indirect_iterator.hpp>
 #include <unordered_map>
 
-namespace be {
-namespace perf {
+namespace be::perf {
 
 ///////////////////////////////////////////////////////////////////////////////
 class TimerStats final : Immovable {
@@ -44,6 +43,5 @@ private:
 };
 
 } // be::perf
-} // be
 
 #endif
