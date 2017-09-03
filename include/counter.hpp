@@ -7,7 +7,7 @@
 #include <be/core/verbosity.hpp>
 
 namespace be::perf {
-   
+
 class CounterStat;
 
 template <v::Verbosity>
@@ -34,7 +34,7 @@ public:
    CounterStat* stat() const;
 
    void count(I64 delta = 1ull);
-   
+
 private:
    void swap_(Counter& other);
 

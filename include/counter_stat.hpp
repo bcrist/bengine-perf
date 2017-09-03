@@ -28,7 +28,7 @@ public:
    U64 sample_id(size_t index) const;
    U64 count(size_t index) const;
    U64 report_count(size_t index) const;
-   
+
    void clear();
 
    void next_record();

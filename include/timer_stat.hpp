@@ -80,7 +80,7 @@ public:
    U64 elapsed(std::size_t index) const;
    I64 exclusive_elapsed(std::size_t index) const;
    U64 report_count(std::size_t index) const;
-   
+
    void clear();
 
    void next_record();

@@ -7,7 +7,7 @@
 #include <be/core/verbosity.hpp>
 
 namespace be::perf {
-   
+
 class EventStat;
 
 template <v::Verbosity>
@@ -33,7 +33,7 @@ public:
    void finish(U64 event_id, const S& data);
    void finish(U64 event_id, S&& data = S());
    bool started() const;
-   
+
 private:
    void swap_(Event& other);
 

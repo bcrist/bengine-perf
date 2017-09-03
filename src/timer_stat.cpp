@@ -153,7 +153,7 @@ void TimerStat::parent(TimerStat& stat) {
 
       cursor = cursor->parent();
    }
-   
+
    if (parent_) {
       if (parent_ == &stat) {
          return;

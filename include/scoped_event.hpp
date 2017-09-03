@@ -10,7 +10,7 @@
 #endif
 
 namespace be::perf {
-   
+
 class EventStat;
 
 template <v::Verbosity V = v::info>
@@ -40,7 +40,7 @@ public:
    void cancel();
    void finish(U64 event_id, S data = S());
    bool started() const;
-   
+
 private:
    Event event_;
    S data_;

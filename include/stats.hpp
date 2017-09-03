@@ -14,12 +14,12 @@ public:
    Stats();
 
    void clear();
-  
+
    CounterStats counters;
    TimerStats timers;
    EventStats events;
 
-private:   
+private:
 };
 
 } // be::perf

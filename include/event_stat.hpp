@@ -31,7 +31,7 @@ public:
    TU timestamp(size_t index) const;
    U64 duration(size_t index) const;
    const S& data(size_t index) const;
-   
+
    void report(U64 event_id, U64 duration, S data);
 
 private:
