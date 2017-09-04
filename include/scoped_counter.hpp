@@ -3,7 +3,7 @@
 #define BE_PERF_SCOPED_COUNTER_HPP_
 
 #include "counter.hpp"
-#include <be/core/service_log.hpp>
+#include <be/core/default_log.hpp>
 
 #if !defined(BE_PERF_NO_DEBUG_COUNTERS) && !defined(BE_PERF_DEBUG_COUNTERS) && defined(BE_DEBUG)
 #define BE_PERF_DEBUG_COUNTERS

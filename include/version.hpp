@@ -6,7 +6,7 @@
 
 #define BE_PERF_VERSION_MAJOR 0
 #define BE_PERF_VERSION_MINOR 1
-#define BE_PERF_VERSION_REV 4
+#define BE_PERF_VERSION_REV 5
 
 /*!! include('common/version', 'be::perf') !! 6 */
 /* ################# !! GENERATED CODE -- DO NOT MODIFY !! ################# */

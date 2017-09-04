@@ -1,7 +1,7 @@
 #include "pch.hpp"
 #include "service_stats.hpp"
 #include <be/core/service_helpers.hpp>
-#include <be/core/service_log.hpp>
+#include <be/core/default_log.hpp>
 
 namespace be {
 

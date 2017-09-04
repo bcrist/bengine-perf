@@ -3,7 +3,6 @@
 #define BE_PERF_SCOPED_EVENT_HPP_
 
 #include "event.hpp"
-#include <be/core/service_log.hpp>
 
 #if !defined(BE_PERF_NO_DEBUG_EVENTS) && !defined(BE_PERF_DEBUG_EVENTS) && defined(BE_DEBUG)
 #define BE_PERF_DEBUG_EVENTS
