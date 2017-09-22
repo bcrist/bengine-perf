@@ -2,7 +2,6 @@
 #ifndef BE_PERF_TIMER_HPP_
 #define BE_PERF_TIMER_HPP_
 
-#include "perf_autolink.hpp"
 #include <be/core/id.hpp>
 #include <be/core/verbosity.hpp>
 

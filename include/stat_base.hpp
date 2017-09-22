@@ -2,7 +2,6 @@
 #ifndef BE_PERF_STAT_BASE_HPP_
 #define BE_PERF_STAT_BASE_HPP_
 
-#include "perf_autolink.hpp"
 #include <be/core/id.hpp>
 #include <boost/circular_buffer.hpp>
 

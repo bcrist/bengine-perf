@@ -32,9 +32,6 @@
     <ClInclude Include="src\pch.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\perf_autolink.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="include\stat_base.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
